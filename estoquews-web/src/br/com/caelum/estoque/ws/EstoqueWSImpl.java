@@ -10,6 +10,8 @@ public class EstoqueWSImpl implements EstoqueWS {
 	@Override
 	public ListaItens todosOsItens(Filtros filtros) {
 		System.out.println("Chamando todos os Itens");
+		System.out.println("Chamando para teste GIT");
+		
         return new ListaItens();
 	}
 

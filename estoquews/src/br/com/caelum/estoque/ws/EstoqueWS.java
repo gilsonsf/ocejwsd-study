@@ -39,6 +39,7 @@ public class EstoqueWS {
         
         return itensResultado;
        // return new ListaItens(itensResultado);
+        //teste GIT
     }
 	
 	@WebMethod(action="CadastrarItem", operationName="CadastrarItem")
