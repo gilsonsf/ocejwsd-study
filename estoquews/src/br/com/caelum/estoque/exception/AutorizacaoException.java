@@ -14,6 +14,7 @@ public class AutorizacaoException extends Exception {
 	}
 	
 	public InfoFault getFaultInfo() {
+		//testes com o vandeco
 	    return new InfoFault("Token invalido" , new Date());
 	}
 
