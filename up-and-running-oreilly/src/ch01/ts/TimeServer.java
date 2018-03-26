@@ -2,6 +2,7 @@ package ch01.ts;
 
 import javax.jws.WebService;
 import javax.jws.WebMethod;
+import javax.jws.WebResult;
 import javax.jws.soap.SOAPBinding;
 import javax.jws.soap.SOAPBinding.Style;
 
@@ -9,7 +10,12 @@ import javax.jws.soap.SOAPBinding.Style;
 @SOAPBinding(style=Style.RPC)
 public interface TimeServer {
 	
-	@WebMethod String getTimeAsString();
-	@WebMethod long getTimeAsElapsed();
+	@WebMethod 
+	@WebResult(partName="time_response")
+	String getTimeAsString();
+
+	@WebMethod 
+	@WebResult(partName="time_response")
+	long getTimeAsElapsed();
 
 }
