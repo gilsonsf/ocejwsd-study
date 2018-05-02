@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NordicSkier>
+    <major_achievements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">12 Olympic Medals</major_achievements>
+    <major_achievements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">9 World Championships</major_achievements>
+    <major_achievements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">Winningest Winter Olympian</major_achievements>
+    <major_achievements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">Greatest Nordic Skier</major_achievements>
+    <national_team>Norway</national_team>
+    <person>
+        <age>41</age>
+        <gender>Male</gender>
+        <name>Bjoern Daehlie</name>
+    </person>
+</NordicSkier>

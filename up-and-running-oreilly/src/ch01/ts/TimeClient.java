@@ -7,8 +7,8 @@ import java.net.URL;
 public class TimeClient {
 
 	public static void main(String[] args) throws Exception {
-		//URL url = new URL("http://localhost:9876/ts?wsdl");
-		URL url = new URL("http://localhost:8888/ts?wsdl");
+		URL url = new URL("http://localhost:9876/ts?wsdl");
+		//URL url = new URL("http://localhost:8888/ts?wsdl");
 		
 		//Qualified name of the service
 		//1st arg is the service URI
