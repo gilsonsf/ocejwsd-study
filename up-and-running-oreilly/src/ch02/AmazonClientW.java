@@ -22,7 +22,7 @@ public class AmazonClientW { // W is for Wrapped style
 			return;
 		}
 		
-		final String acess_key = args[0];
+		final String access_key = args[0];
 		
 		//Construct a service object to get the port object
 		AWSECommerceService service = new AWSECommerceService();
@@ -35,7 +35,7 @@ public class AmazonClientW { // W is for Wrapped style
 		
 		ItemSearch search = new ItemSearch();
 		search.getRequest().add(request);
-		search.setAWSAccessKeyId(acess_key);
+		search.setAWSAccessKeyId(access_key);
 		
 		Holder<OperationRequest> operation_request = null;
 		Holder<List<Items>> items = new Holder<List<Items>>();
